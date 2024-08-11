@@ -1,9 +1,9 @@
 # One Love
 
-## Description
+## Description:
 A brief description of what the project does and its purpose.
 
-## Table of Contents
+## Table of Contents:
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
@@ -12,21 +12,21 @@ A brief description of what the project does and its purpose.
 - [Acknowledgements](#acknowledgements)
 - [Contact Information](#contact-information)
 
-## Installation
+## Installation:
 To get started with this project, follow these steps:
 1. **Clone the repository:**
    ```bash
     git clone https://github.com/username/repository.git
 2.  **Navigate into the project directory:**
-    <br>cd repository
+    cd repository
 3.  **Install dependencies:**
     npm install
 
-## Usage
-1. **start the application**
+## Usage:
+1. **start the application:**
     development: npm start
     production: npm run build
-    This will start the development server on http://localhost:3000.
+    This will start the development or production server on http://localhost:3000.
 2. **Access the application:**
     Open your browser and go to http://localhost:3000 to see the running application.
 3. **Run tests:**
@@ -45,12 +45,11 @@ If you'd like to contribute to this project, please follow these guidelines:
 2. Create a new branch.
 3. Submit a pull request with your changes.
 
-## License
-not lisenced
+## License:
+Not licensed
 
-## Acknowledgements
-[Contributor Name] - for [contribution]
-[Resource] - for [useful information]
+## Acknowledgements:
+- [Create React App](https://github.com/facebook/create-react-app) - for providing a great boilerplate for React applications.
 
-## Contact Information
+## Contact Information:
 For questions or feedback, please contact me at rowanvanzyl@gmail.com.
