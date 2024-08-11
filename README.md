@@ -12,28 +12,33 @@ This project is a part of a Codecademy course, designed to demonstrate my skills
 - [Acknowledgements](#acknowledgements)
 - [Contact Information](#contact-information)
 
-## Installation:
+## Installation
 To get started with this project, follow these steps:
 1. **Clone the repository:**
    ```bash
-    git clone https://github.com/username/repository.git
+   git clone https://github.com/username/repository.git
 2.  **Navigate into the project directory:**
     cd repository
 3.  **Install dependencies:**
     npm install
 
-## Usage:
-1. **start the application:**
-    development: npm start
-    production: npm run build
-    This will start the development or production server on http://localhost:3000.
+## Usage
+1. **Start the application:**
+   - **Development:**
+     ```bash
+     npm start
+     ```
+   - **Production:**
+     ```bash
+     npm run build
+     ```
+   This will start the development or production server on `http://localhost:3000`.
 2. **Access the application:**
-    Open your browser and go to http://localhost:3000 to see the running application.
+   Open your browser and go to `http://localhost:3000` to see the running application.
 3. **Run tests:**
+   ```bash
    npm test
-4. **Build for production:**
-   npm run build
-   The production-ready files will be output to the dist/ directory.
+
 
 ## Configuration:
 none
