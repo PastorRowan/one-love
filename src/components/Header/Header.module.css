@@ -1,0 +1,36 @@
+
+/* File: src/components/Header/Header.module.css
+   Description: 
+   CSS module provides styles for the `Header` component, including the header container, main header area, and header text.
+   The styles ensure that the header has a background image, is centered, and has a large, bold title.
+
+   - `.headerContainer`: Styles for the main container of the header, including padding, height, width, background color, and background image. The background image is set to repeat horizontally and be contained within the container.
+   - `.header`: Styles for the header section, including centering content and applying a vertical transform to position the header correctly.
+   - `.headerH1`: Styles for the main title in the header, including font size, family, and color to make it prominent.
+*/
+
+.headerContainer {
+    padding: 18px;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(27, 2, 27, 0.849);
+    overflow: hidden;
+    background-image: url('/public/backGroundAssets/rasta-pattern.jpg'); /* images/rasta-pattern-3.jpg */
+    background-repeat: repeat-x;
+    background-size: contain;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    transform: translateY(-50px);
+  }
+  
+  .headerH1 {
+    font-size: 140px;
+    font-family: 'cursive';
+    color: rgb(255, 0, 0);
+    /* color: rgb(255, 0, 0); */
+  }

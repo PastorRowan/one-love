@@ -1,0 +1,45 @@
+
+/*
+  File: src/authentication/AuthenticationComponent.module.css
+  Description:
+  Styles for the AuthenticationComponent. Defines layout and appearance for the authentication UI elements.
+*/
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: #F2B600;
+}
+
+.authContainer {
+    height: 600px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto 0 auto;
+    padding-top: 20px;
+}
+
+.authCheckCont {
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+
+.authCheckPCont {
+    width: 95%;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.authCheckPContP {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.loadingSymbolCont {
+    position: absolute;
+    left: 90%;
+    top: 10%;
+    font-size: 30px;
+}

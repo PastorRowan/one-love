@@ -1,0 +1,31 @@
+
+/*
+  File: src/Main.module.css
+  Description: This 
+  CSS module provides styles for the `Main` component, setting up the background, layout, and font styles.
+*/
+
+.main {
+    background-color: #F2B600;
+    background-image: url('/public/backGroundAssets/colorful-bob.jpg');
+    background-position: 500px 0px;
+    background-size: 150%;
+    background-repeat: repeat-x;
+}
+
+.functionBlock {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 1100px;
+    font-family: 'nowduke';
+}
+  
+.functionContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 900px;
+    height: 100%;
+}

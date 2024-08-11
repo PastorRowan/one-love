@@ -1,0 +1,71 @@
+
+/*
+  File: src/components/SearchContainer/SearchContainer.module.css
+  Description:
+  CSS module styles the SearchContainer component.
+  Sets up a vertical flex layout for the container and centers its content.
+  Search bar container has a specified width, height, border, and background color, with rounded corners.
+  Search input field is styled to remove default borders and background while providing padding. On focus, the placeholder text fades out.
+  Search button container and button are styled for size, background color, and font, with rounded corners for a pill-like appearance.
+*/
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+  height: 250px;
+}
+
+.searchBarContainer {
+  width: 400px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black; /* width, style, color */
+  margin: 0 auto 40px auto;
+}
+
+.searchBarInput {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  padding-left: 20px
+}
+
+.searchBarInput:focus {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.searchBarInput::placeholder {
+  color: #000000;
+}
+
+.searchBarInput:focus::placeholder {
+  opacity: 0;
+}
+
+.searchButtonContainer {
+  width: 324px;
+  height: 48px;
+  margin: 0 auto;
+}
+
+.searchButton {
+  width: 324px;
+  height: 48px;
+  background-color: rgba(30, 215, 96, 1);
+  border-color: rgba(30, 215, 96, 1);
+  border-radius: 9999px;
+  font-family: 'circular-sp';
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0 40px;
+  color: black;
+  border: 0px;
+  margin: 0;
+}

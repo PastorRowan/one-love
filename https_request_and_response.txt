@@ -1,0 +1,76 @@
+
+
+Request URL:
+https://api.spotify.com/v1/search?q=bob&type=track&limit=12
+Request Method:
+GET
+Status Code:
+403 Forbidden
+Remote Address:
+35.186.224.24:443
+Referrer Policy:
+strict-origin-when-cross-origin
+access-control-allow-credentials:
+true
+access-control-allow-headers:
+Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods:
+GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-origin:
+*
+access-control-max-age:
+604800
+alt-svc:
+h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+cache-control:
+private, max-age=0
+content-encoding:
+gzip
+content-length:
+96
+date:
+Sat, 10 Aug 2024 09:16:30 GMT
+server:
+envoy
+strict-transport-security:
+max-age=31536000
+via:
+HTTP/2 edgeproxy, 1.1 google
+x-content-type-options:
+nosniff
+:authority:
+api.spotify.com
+:method:
+GET
+:path:
+/v1/search?q=bob&type=track&limit=12
+:scheme:
+https
+accept:
+*/*
+accept-encoding:
+gzip, deflate, br, zstd
+accept-language:
+en-GB,en-US;q=0.9,en;q=0.8
+authorization:
+Bearer BQA0HhqHhz4o3Vl3sDoQEWY-UIq8pVMddiG9LCjUsrc4hmkOL4uhNzI20AzRxiKf3z7BW-5CDqizlmSxVmLp5PuXLplgVXoHmpZlllH3Kjr7w4wbuTaIodc92BhykRyZpZ6ZGbW-UoaR7JS6DJFIvoCECCKgWMe3XRXI281nFpCEmbX9JrbuO18BNnXDP3wLPHkwNOjPS5DHsh11wUs2bfgbHwEKtP32C4bVeBkw4Cs6SbbpaUHL0Rld9xAX-54JoXyhMi3yson3fNXv7PZFUg
+origin:
+https://localhost:3000
+priority:
+u=1, i
+referer:
+https://localhost:3000/
+sec-ch-ua:
+"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"
+sec-ch-ua-mobile:
+?0
+sec-ch-ua-platform:
+"Windows"
+sec-fetch-dest:
+empty
+sec-fetch-mode:
+cors
+sec-fetch-site:
+cross-site
+user-agent:
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36

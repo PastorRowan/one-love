@@ -1,0 +1,62 @@
+
+/*
+  File: src/styles/tracks.module.css
+  Description:
+  CSS Module defines styles for the track containers used in the search results and playlist.
+  Includes styles for track containers, play buttons, and text containers, ensuring a consistent layout and appearance for track elements.
+*/
+
+.trackContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 99%;
+    height: 75px;
+    margin-left: 1%;
+}
+
+.trackContainer:hover {
+    width: 98.25%;
+    margin-left: 1.75%;
+}
+
+.playTrackButtonContainer {
+    height: 100%;
+    width: 25px;
+}
+
+.playTrackButtonWrapper {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 17px 0 0 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.playTrackIcon {
+    height: 25px;
+    width: 25px;
+}
+
+.trackTextContainer {
+    width: auto;
+    height: auto;
+    flex: 1;
+    padding-top: 10px;
+    padding-left: 14px;
+}
+
+.trackTextContainerH2 {
+    font-size: 1.5em;   
+}
+
+.trackTextContainerP {
+    font-size: 1rem;
+}
+ 
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

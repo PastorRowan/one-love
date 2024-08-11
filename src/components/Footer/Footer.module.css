@@ -1,0 +1,60 @@
+
+/* 
+  File: src/components/Footer/Footer.module.css
+   Description: 
+   CSS module provides styles for the `Footer` component, which is fixed at the bottom of the page. 
+   Includes styles for the footer container, footer content, header text, and navigation links. 
+   The styles ensure proper alignment, spacing, and font styling.
+
+   - `.footerContainer`: Styles for the main footer container, including centering and background color.
+   - `.footer`: Styles for the footer content area, including width, height, font styling, and overflow handling.
+   - `.footerH2`: Styles for the footer header text, including margin and font size.
+   - `.nav`: Styles for the navigation container, including margin, color, font size, and weight.
+   - `.navA`: Styles for navigation links, including margin and font styling.
+   - `.lastNavOption`: Styles for the last navigation link, ensuring no extra margin.
+*/
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(27, 2, 27, 0.849);
+}
+  
+.footer {
+  width: 1200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-family: "Proza Libre", sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  overflow: hidden;
+}
+  
+.footerH2 {
+  margin-right: auto;
+  margin-left: 30px;
+  font-family: "Proza Libre", sans-serif;
+  font-size: 2em;
+}
+
+.nav {
+  margin-left: auto;
+  margin-right: 10px;
+  color: rgb(255, 0, 0);
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-top: 6px;
+}
+  
+.navA {
+  margin-right: 20px;
+  font-weight: inherit;
+  font-family: "Open Sans", sans-serif;
+}
+  
+.lastNavOption {
+  margin-right: 0;
+}

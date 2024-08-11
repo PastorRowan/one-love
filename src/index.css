@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/* File: src/global.css
+   Description: This CSS file contains global styles and font-face definitions for the application.
+
+   - Global Styles:
+     - `*` selector:
+       - Sets `box-sizing` to `border-box` for all elements, ensuring padding and border are included in element's total width and height.
+       - Sets `margin` and `padding` to `0` for all elements to remove default spacing.
+
+   - Font-Face Definitions:
+     - `@font-face` for 'cursive':
+       - Defines the 'cursive' font-family with the source URL pointing to a TrueType font file located at 'fonts/cursive/rastamasta-pk68p.ttf'.
+
+     - `@font-face` for 'nowduke':
+       - Defines the 'nowduke' font-family with multiple formats:
+         - `woff2` format located at 'fonts/nowduke/Nowduke-Regular.woff2'
+         - `woff` format located at 'fonts/nowduke/Nowduke-Regular.woff'
+         - `truetype` format located at 'fonts/nowduke/Nowduke-Regular.ttf'
+         - `embedded-opentype` format located at 'fonts/nowduke/Nowduke-Regular.eot'
+
+     - `@font-face` for 'circular-sp':
+       - Defines the 'circular-sp' font-family with multiple formats:
+         - `opentype` format for various font styles:
+           - 'CircularSpotifyText-Black.otf'
+           - 'CircularSpotifyText-BlackItalic.otf'
+           - 'CircularSpotifyText-Bold.otf'
+           - 'CircularSpotifyText-Book.otf'
+           - 'CircularSpotifyText-BookItalic.otf'
+           - 'CircularSpotifyText-Light.otf'
+           - 'CircularSpotifyText-Medium.otf'
+           - 'CircularSpotifyText-MediumItalic.otf'
+
+       - Sets `font-weight` and `font-style` to `normal` to standardize the font appearance.
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'cursive';
+    src: url('fonts/cursive/rastamasta-pk68p.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'nowduke';
+    src: url('fonts/nowduke/Nowduke-Regular.woff2') format('woff2'),
+         url('fonts/nowduke/Nowduke-Regular.woff') format('woff'),
+         url('fonts/nowduke/Nowduke-Regular.ttf') format('truetype'),
+         url('fonts/nowduke/Nowduke-Regular.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'circular-sp';
+    src: url('fonts/circular-spotify/CircularSpotifyText-Black.otf') format('opentype'),
+         url('fonts/circular-spotify/CircularSpotifyText-BlackItalic.otf') format('opentype'),
+         url('fonts/circular-spotify/CircularSpotifyText-Bold.otf') format('opentype'),
+         url('fonts/circular-spotify/CircularSpotifyText-Book.otf') format('opentype'),
+         url('fonts/circular-spotify/CircularSpotifyText-BookItalic.otf') format('opentype'),
+         url('fonts/circular-spotify/CircularSpotifyText-Light.otf') format('opentype'),
+         url('fonts/circular-spotify/CircularSpotifyText-Medium.otf') format('opentype'),
+         url('fonts/circular-spotify/CircularSpotifyText-MediumItalic.otf') format('opentype');
+
+    font-weight: normal;
+    font-style: normal;
 }
