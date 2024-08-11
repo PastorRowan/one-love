@@ -2,6 +2,7 @@
 
 ## Description:
 A brief description of what the project does and its purpose.
+This project is a part of a Codecademy course, designed to showcase [specific functionality or purpose of the project]. It demonstrates [briefly describe what the project does, such as features or technologies used]. The goal of this project was to [briefly mention any learning objectives or outcomes, such as "build a React application with a focus on state management and API integration"].
 
 ## Table of Contents:
 - [Installation](#installation)
