@@ -19,7 +19,7 @@ To get started with this project, follow these steps:
    git clone https://github.com/PastorRowan/one-love.git
 2.  **Navigate into the project directory:**
     ```bash
-   cd repository
+    cd repository
 3.  **Install dependencies:**
     ```bash
     npm install
