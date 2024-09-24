@@ -52,13 +52,13 @@ To get started with this project, follow these steps:
       ```bash
       npx cypress open
    4. cypress should open, press e2e testing:
-![Alt text](README_images/e2e/1.jpg)
+   ![Alt text](README_images/e2e_tests/1.jpg)
    3. Choose chrome or any modern browser should work, I used chrome for testing so I reccomend using that
-![Alt text](README_images/e2e/1.jpg)
+   ![Alt text](README_images/e2e_tests/2.jpg)
    4. press select any test you want to run out of my spec
-![Alt text](README_images/e2e/1.jpg)
+   ![Alt text](README_images/e2e_tests/3.jpg)
    5. the test should now be running
-![Alt text](README_images/e2e/1.jpg)
+   ![Alt text](README_images/e2e_tests/4.jpg)
    
 
 ## Configuration:
