@@ -1,7 +1,11 @@
 
 /*
-  File: src/context/AudioPlayerContext/AudioPlayerContext.test.js
-  Description: ...
+    File: src/context/AudioPlayerContext/AudioPlayerContext.test.js
+    Description: Unit tests for the `AudioPlayerProvider` component.
+        These tests ensure that the provider renders correctly:
+        provides the necessary context values and functions to its consumers,
+        and that the audio control functionalities (play, pause, toggle, change source) work as expected.
+        Additionally, the tests verify the debouncing behavior of the play/pause functionality.
 */
 
 import React, { useEffect } from 'react';

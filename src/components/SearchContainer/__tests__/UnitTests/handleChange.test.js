@@ -1,4 +1,11 @@
 
+/*
+    File: src/components/SearchContainer/__tests__/UnitTests/handleChange.unit.test.js
+    Description:
+        Unit tests for the `SearchContainer` component, specifically testing the input handling functionality.
+        This test verifies that the query state is updated correctly when the user types into the input field.
+*/
+
 import React from 'react';
 import { render, screen, fireEvent, cleanup } from '@testing-library/react';
 import SearchContainer from '../../SearchContainer';

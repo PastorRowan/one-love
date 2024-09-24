@@ -1,8 +1,10 @@
 
 /*
-  File: src/components/SearchTracksCont/__tests__/SearchTracksCont.integration.test.jsx
-  Description:
-  ...
+    File: src/components/SearchTracksCont/__tests__/SearchTracksCont.integration.test.jsx
+    Description:
+        Integration tests for the `SearchTracksCont` component.
+        These tests check the interaction of the component with various contexts, including search results, playlist tracks, and the audio player.
+        They ensure that search results are displayed correctly, track interactions (like play and add to playlist) are functioning as expected, and appropriate messages are shown based on the state of search and playlist tracks.
 */
 
 // mocks

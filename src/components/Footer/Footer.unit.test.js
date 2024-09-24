@@ -1,8 +1,10 @@
 
 /*
-  File: src/components/Footer/Footer.unit.test.js
-  Description: ...
+    File: src/components/Footer/Footer.unit.test.js
+    Description:
+        Unit test for the Footer component, ensuring that the footer and its subcomponents (including name, Contact Me link, and CV link) are rendered correctly in the DOM.
 */
+
 
 import { render, screen } from '@testing-library/react';
 

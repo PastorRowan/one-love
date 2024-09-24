@@ -2,9 +2,9 @@
 /*
     File: src/components/Header/Header.js
     Description:
-    Component renders the header section of the page, including a main title. 
-    Header is styled using the associated CSS module.
-    Component provides a simple, centered title for the top of the page.
+        Component renders the header section of the page, including a main title. 
+        Header is styled using the associated CSS module.
+        Component provides a simple, centered title for the top of the page.
 */
 
 import React from 'react';

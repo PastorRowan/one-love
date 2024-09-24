@@ -1,10 +1,11 @@
 
 /*
-  File: src/authentication/getToken/getToken.test.js
-  Description: ...
+    File: src/authentication/getToken/getToken.test.js
+    Description:
+        This file contains unit tests for the getToken function, which retrieves an access token from the Spotify API using an authorization code.
+        It tests various scenarios, including missing authorization codes, network errors, and bad requests, ensuring that the function handles these situations gracefully.
+        TODO: Add a test case to handle the situation when there is no code verifier in local storage.
 */
-
-// todo: should handle no code verifier in local storage dont have a check for that yet
 
 jest.mock('../storeTokenData/storeTokenData');
 

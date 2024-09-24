@@ -1,8 +1,9 @@
 
 /*
-  File: src/components/SearchTracksCont/__tests__/UnitTests/handleClickOnPlayButton.test.js
-  Description:
-  ...
+    File: src/components/SearchTracksCont/__tests__/UnitTests/handleClickOnPlayButton.test.js
+    Description:
+        Unit tests for the `SearchTracksCont` component, focusing on the functionality of the play button.
+        These tests check whether the correct audio source is set when the play button is clicked and whether errors are logged when an issue occurs during the click event.
 */
 
 // mock context

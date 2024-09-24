@@ -1,10 +1,12 @@
 
-// File: src/components/PlaylistTracksCont/createPlaylist.js
-// Description:
-// Function creates a new playlist for a specified Spotify user using the Spotify Web API.
-// Sends a POST request to the API with playlist details, including name.
-// Handles any errors that occur during the request.
-// Function returns the ID of the newly created playlist.
+/*
+    File: src/components/PlaylistTracksCont/createPlaylist.js
+    Description:
+        Function creates a new playlist for a specified Spotify user using the Spotify Web API.
+        Sends a POST request to the API with playlist details, including name.
+        Handles any errors that occur during the request.
+        Function returns the ID of the newly created playlist.
+*/
 
 async function createPlaylist(userId, name) {
 

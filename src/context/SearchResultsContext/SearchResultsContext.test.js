@@ -1,7 +1,10 @@
 
 /*
-  File: src/context/SearchResultsContext/SearchResultsContext.test.js
-  Description: ...
+    File: src/context/SearchResultsContext/SearchResultsContext.test.js
+    Description:
+        This file contains unit tests for the SearchResultsContext.
+        It verifies that the context correctly manages the state of search playlist tracks by simulating user interactions with a test component.
+        The tests ensure that tracks can be added to the search results and are reflected in the UI.
 */
 
 // general

@@ -1,8 +1,10 @@
 
 /*
-  File: src/Providers.test.js
-  Description:
-  ...
+    File: src/Providers.test.js
+    Description:
+        This file contains unit tests for the Providers component.
+        It verifies that the Providers component correctly renders its child components within all context providers.
+        The tests utilize React Testing Library to ensure that the expected mock component appears in the document when wrapped inside the Providers component.
 */
 
 import React from 'react';

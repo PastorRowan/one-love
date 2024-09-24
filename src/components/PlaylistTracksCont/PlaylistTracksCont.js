@@ -1,12 +1,12 @@
 
 /*
-  File: src/components/PlaylistTracksCont/PlaylistTracksCont.js
-  Description:
-  Component displays a list of tracks that can be added to a playlist.
-  Allows users to play tracks, remove them from the playlist, and save the playlist to a new Spotify playlist.
-  Integrates with the Spotify API to create a playlist and add tracks.
-  Component uses React hooks for managing state and side effects.
-  Employs context providers for managing audio playback and track information.
+    File: src/components/PlaylistTracksCont/PlaylistTracksCont.js
+    Description:
+        Component displays a list of tracks that can be added to a playlist.
+        Allows users to play tracks, remove them from the playlist, and save the playlist to a new Spotify playlist.
+        Integrates with the Spotify API to create a playlist and add tracks.
+        Component uses React hooks for managing state and side effects.
+        Employs context providers for managing audio playback and track information.
 */
 
 import { useState, useEffect } from 'react';

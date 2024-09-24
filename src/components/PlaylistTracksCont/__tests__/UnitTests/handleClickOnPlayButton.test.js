@@ -1,4 +1,11 @@
 
+/*
+    File: src/components/PlaylistTracksCont/__tests__/UnitTests/handleClickOnPlayButton.test.js
+    Description:
+        Unit tests for the createPlaylist function, which ensures proper handling of API requests to create a playlist.
+        The tests cover successful fetch requests, fetch errors, and handling non-OK responses.
+*/
+
 // mocks
 jest.mock("../../../context/SearchResultsContext/SearchResultsContext", () => ({
     useSearchTracks: jest.fn()

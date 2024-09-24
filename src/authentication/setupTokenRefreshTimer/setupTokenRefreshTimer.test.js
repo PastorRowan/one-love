@@ -1,7 +1,12 @@
 
 /*
-  File: src/authentication/setupTokenRefreshTimer/setupTokenRefreshTimer.test.js
-  Description: ...
+    File: src/authentication/setupTokenRefreshTimer/setupTokenRefreshTimer.test.js
+    Description:
+        This file contains tests for the `setupTokenRefreshTimer` function, which is responsible for setting up a timer to refresh the authentication token before it expires.
+        It verifies the function's behavior under various scenarios: 
+            the expiration time is not found, when the token is already expired,
+            the token is not yet expired,
+            an optional callback function is provided.
 */
 
 jest.mock('../refreshToken/refreshToken');

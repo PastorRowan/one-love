@@ -1,7 +1,9 @@
 
 /*
-  File: src/components/PlaylistTracksCont/__tests__/addItemsToPlaylist.test.js
-  Description: ...
+    File: src/components/PlaylistTracksCont/__tests__/UnitTests/addItemsToPlaylist.test.js
+    Description:
+        Unit tests for the addItemsToPlaylist function, which ensures the correct handling of API requests to add tracks to a playlist.
+        The tests cover successful fetch requests, fetch errors, and handling non-OK responses.
 */
 
 import addItemsToPlaylist from "../../addItemsToPlaylist";

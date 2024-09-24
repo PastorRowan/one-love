@@ -1,7 +1,9 @@
 
 /*
-  File: src/authentication/getSpotifyId/fetchSpotifyId.test.js
-  Description: ...
+    File: src/authentication/getSpotifyId/fetchSpotifyId.test.js
+    Description:
+        This file contains unit tests for the fetchSpotifyId function, which retrieves the Spotify user ID using the Spotify API.
+        It tests the function's behavior under different scenarios, including successful fetches, fetch errors, and non-OK responses.
 */
 
 import fetchSpotifyId from './fetchSpotifyId';

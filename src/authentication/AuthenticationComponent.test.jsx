@@ -2,7 +2,8 @@
 /*
     File: src/authentication/AuthenticationComponent.test.js
     Description:
-    ...
+        Unit tests for the AuthenticationComponent, which handles the authentication flow using Spotify's API.
+        These tests cover rendering behavior, loading states, interaction with mocked functions, and user events for fetching tokens and setting up token refresh timers.
 */
 
 // mocking dependencies

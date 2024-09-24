@@ -1,12 +1,12 @@
 
 /* 
-  File: src/components/PlaylistTracksCont/PlaylistTracksCont.module.css
-  Description:
-  CSS module styles the PlaylistTracksCont component.
-  Defines the layout and appearance of the playlist container, including alignment and dimensions.
-  The container has a background color and flexbox layout for centering content.
-  Includes styling for the "Save to Spotify" button.
-  Button is styled with a rounded appearance, specific dimensions, and color.
+    File: src/components/PlaylistTracksCont/PlaylistTracksCont.module.css
+    Description:
+        CSS module styles the PlaylistTracksCont component.
+        Defines the layout and appearance of the playlist container, including alignment and dimensions.
+        The container has a background color and flexbox layout for centering content.
+        Includes styling for the "Save to Spotify" button.
+        Button is styled with a rounded appearance, specific dimensions, and color.
 */
 
 .playlistContainer {

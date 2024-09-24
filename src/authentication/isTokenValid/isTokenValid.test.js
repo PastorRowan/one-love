@@ -1,8 +1,9 @@
 
 /*
     File: src/authentication/isTokenValid/isTokenValid.test.js
-    Description: ...
-    Tests the `isTokenValid` function to ensure it correctly determines if the access token is valid, expired, or missing.
+    Description:
+        This file contains tests for the `isTokenValid` function, which determines the validity of an access token based on its expiration status and required fields in local storage.
+        It tests various scenarios, including valid tokens, expired tokens, tokens about to expire, and missing required fields.
 */
 
 import isTokenValid from "./isTokenValid";

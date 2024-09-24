@@ -1,4 +1,10 @@
-// File: src/components/SearchContainer/__tests__/handleSearch.test.js
+
+/*
+    File: src/components/SearchContainer/__tests__/UnitTests/handleSearch.test.js
+    Description:
+        Unit tests for the `SearchContainer` component, specifically focusing on the search functionality.
+        These tests verify that the component handles various scenarios, including empty queries, successful fetch requests, and error handling during fetch operations.
+*/
 
 // mocks
 jest.mock('../../fetchQueryTracks');

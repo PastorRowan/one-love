@@ -1,8 +1,9 @@
 
 /*
-  File: src/authentication/refreshToken/refreshToken.test.js
-  Description:
-    Tests the `refreshToken` function to ensure it correctly handles token refreshing, errors, and calls to helper functions.
+    File: src/authentication/refreshToken/refreshToken.test.js
+    Description:
+        This file contains tests for the `refreshToken` function, which is responsible for refreshing access tokens using a refresh token.
+        It verifies the function's behavior under various conditions, including successful token refresh, handling of non-ok HTTP responses, and scenarios where the refresh token is missing from local storage.
 */
 
 // mock helpers

@@ -1,7 +1,11 @@
 
 /*
-  File: src/context/AuthContext/AuthContext.test.js
-  Description: ...
+    File: src/context/AuthContext/AuthContext.test.js
+    Description:
+        Unit tests for the `AuthProvider` component.
+        These tests verify that the provider initializes context values correctly,
+        handles URL parameters to manage authorization codes, and checks the validity of access tokens.
+        The tests also ensure the correct loading state is reflected based on the context values.
 */
 
 import { render, screen, waitFor } from '@testing-library/react';

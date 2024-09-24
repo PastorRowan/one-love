@@ -1,8 +1,10 @@
 
 /*
-  File: src/components/AudioController/AudioController.test.js
-  Description:
-  ...
+    File: src/components/AudioController/AudioController.test.js
+    Description:
+        Unit tests for the AudioController component,
+        which interacts with the AudioPlayerContext to handle audio playback.
+        These tests ensure proper rendering of UI elements like the play/pause button, volume slider, and playback slider, as well as the correct functionality of audio controls such as play, pause, and volume adjustments.
 */
 
 // mock the AudioPlayerContext

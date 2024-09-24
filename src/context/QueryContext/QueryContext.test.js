@@ -1,7 +1,10 @@
 
 /*
     File: src/context/QueryContext/QueryContext.test.js
-    Description: ...
+    Description:
+        This file contains unit tests for the QueryContext.
+        It verifies the functionality of the query state management by simulating user interactions with a test component that uses the QueryContext.
+        The tests ensure that the query state updates correctly when the user types in the input field.
 */
 
 // general

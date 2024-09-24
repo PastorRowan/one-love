@@ -1,7 +1,10 @@
 
 /*
-  File: src/authentication/storeTokenData/storeTokenData.test.js
-  Description: ...
+    File: src/authentication/storeTokenData/storeTokenData.test.js
+    Description:
+        Unit tests for the storeTokenData function,
+        which is responsible for storing authentication token data in localStorage.
+        These tests ensure that token data is correctly saved and the expiration time (expires_at) is calculated properly.
 */
 
 import storeTokenData from "./storeTokenData";

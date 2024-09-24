@@ -1,12 +1,12 @@
 
 /*
-  File: src/components/SearchContainer/SearchContainer.module.css
-  Description:
-  CSS module styles the SearchContainer component.
-  Sets up a vertical flex layout for the container and centers its content.
-  Search bar container has a specified width, height, border, and background color, with rounded corners.
-  Search input field is styled to remove default borders and background while providing padding. On focus, the placeholder text fades out.
-  Search button container and button are styled for size, background color, and font, with rounded corners for a pill-like appearance.
+    File: src/components/SearchContainer/SearchContainer.module.css
+    Description:
+        CSS module styles the SearchContainer component.
+        Sets up a vertical flex layout for the container and centers its content.
+        Search bar container has a specified width, height, border, and background color, with rounded corners.
+        Search input field is styled to remove default borders and background while providing padding. On focus, the placeholder text fades out.
+        Search button container and button are styled for size, background color, and font, with rounded corners for a pill-like appearance.
 */
 
 .searchContainer {

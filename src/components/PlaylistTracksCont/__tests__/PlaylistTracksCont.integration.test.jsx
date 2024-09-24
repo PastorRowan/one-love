@@ -1,8 +1,9 @@
 
 /*
-  File: src/components/PlaylistTracksCont/__tests__/PlaylistTracksCont.integration.test.jsx
-  Description:
-  ...
+    File: src/components/PlaylistTracksCont/__tests__/PlaylistTracksCont.integration.test.jsx
+    Description:
+        Integration tests for the PlaylistTracksCont component.
+        These tests ensure that tracks are rendered correctly, interaction with playlist tracks works as expected, and saving playlists to Spotify is properly handled.
 */
 
 // mock context hooks

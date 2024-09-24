@@ -2,7 +2,10 @@
 /*
     File: src/Main.test.js
     Description:
-    ...
+        This file contains unit tests for the Main component.
+        It verifies that the Main component correctly renders its child components: 
+            SearchContainer, SearchTracksCont, and PlaylistTracksCont.
+        The tests utilize Jest and React Testing Library to ensure that the expected components appear in the document when the Main component is rendered.
 */
 
 // mock the child components

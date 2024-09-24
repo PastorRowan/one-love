@@ -1,8 +1,9 @@
 
 /*
     File: File: src/authentication/handleAuthorisation/handleAuthorisation.test.js
-    Description:
-
+    Description: 
+        This file contains unit tests for the handleAuthorisation function, which manages the authorization flow for the Spotify API.
+        The tests verify the behavior of the function under various conditions, such as handling existing authorization codes, ensuring correct interaction with local storage, and validating the construction of the authorization URL.
 */
 
 // mock variables

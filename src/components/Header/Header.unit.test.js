@@ -1,7 +1,8 @@
 
 /*
-  File: src/components/Header/Header.unit.test.js
-  Description: ...
+    File: src/components/Header/Header.unit.test.js
+    Description:
+        Unit test for the Header component, ensuring that the header and its subcomponents (including the header container and title text "One Love") are correctly rendered in the DOM.
 */
 
 import { render, screen } from '@testing-library/react';

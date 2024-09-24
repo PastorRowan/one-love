@@ -1,7 +1,8 @@
 
 /*
     File: src/context/PlaylistContext/PlaylistContext.test.js
-    Description: ...
+    Description:
+        This file contains unit tests for the PlaylistTracksContext, ensuring that it provides and updates the playlist tracks correctly.
 */
 
 // general

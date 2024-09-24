@@ -1,13 +1,16 @@
 
 /*
-  File: src/components/SearchTracksCont/__tests__/handleClickOnSearchTrack.test.jsx
-  Description: Unit tests for handleClickOnSearchTrack function.
+    File: src/components/SearchTracksCont/__tests__/handleClickOnSearchTrack.test.jsx
+    Description:
+        Unit tests for the `handleClickOnSearchTrack` function in the `SearchTracksCont` component.
+        These tests verify the functionality of adding tracks to the playlist and removing them from the search results when clicked.
+        They also ensure proper error handling when the necessary attributes are missing and log appropriate error messages to the console.
 */
 
 // mocks
 jest.mock('../../../context/SearchResultsContext/SearchResultsContext', () => ({
     useSearchTracks: jest.fn()
-  }));
+  }));  
   jest.mock('../../../context/PlaylistContext/PlaylistContext', () => ({
     usePlaylistTracks: jest.fn()
   }));

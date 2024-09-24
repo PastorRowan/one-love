@@ -1,7 +1,8 @@
 
 /*
-  File: src/components/PlaylistTracksCont/__tests__/UnitTests/handleClickOnPlaylistTrack.test.jsx
-  Description: Unit test for handleClickOnPlaylistTrack function to check error handling and console.error calls.
+    File: src/components/PlaylistTracksCont/__tests__/UnitTests/handleClickOnPlaylistTrack.test.jsx
+    Description:
+        Unit test for handleClickOnPlaylistTrack function to check error handling and console.error calls.
 */
 
 // mock context hooks

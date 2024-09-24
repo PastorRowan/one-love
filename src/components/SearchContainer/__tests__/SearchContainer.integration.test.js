@@ -1,7 +1,9 @@
 
 /*
-  File: src/components/SearchContainer/__tests__/unitTests/SearchContainer.unit.test.js
-  Description: 
+    File: src/components/SearchContainer/__tests__/SearchContainer.integration.test.js
+    Description:
+        Unit tests for the SearchContainer component, ensuring that it renders properly within its context providers.
+        These tests verify that the input field and the search button are rendered correctly.
 */
 
 import React from 'react';
