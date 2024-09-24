@@ -16,7 +16,7 @@ This project is a part of a Codecademy course, designed to demonstrate my skills
 To get started with this project, follow these steps:
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/PastorRowan/one-love.git
 2.  **Navigate into the project directory:**
     cd repository
 3.  **Install dependencies:**
