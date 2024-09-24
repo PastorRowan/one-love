@@ -51,7 +51,7 @@ To get started with this project, follow these steps:
    3. run this command to open cypress:
       ```bash
       npx cypress open
-      ![Alt text](README_images/e2e_tests/1.jpg)
+   ![Alt text](README_images/e2e_tests/1.jpg)
    4. cypress should open, press e2e testing:
       ![Alt text](README_images/e2e_tests/2.jpg)
    3. Choose chrome or any modern browser should work, I used chrome for testing so I reccomend using that
