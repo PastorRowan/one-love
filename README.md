@@ -46,8 +46,19 @@ To get started with this project, follow these steps:
    ```bash
    npm test
    - cypress e2e tests:
-   1. open cypress
-   ```bash
+   1. Make sure the development or production server is running on http://localhost:3000 in another terminal. Please refer to the usage section for further instructions
+   2. Navigate to the project directory within your terminal.
+   3. run this command to open cypress:
+      ```bash
+      npx cypress open
+   4. cypress should open, press e2e testing:
+      ![Alt text](README_images/e2e/1.jpg)
+   3. Choose chrome or any modern browser should work, I used chrome for testing so I reccomend using that
+      ![Alt text](README_images/e2e/1.jpg)
+   4. press select any test you want to run out of my spec
+      ![Alt text](README_images/e2e/1.jpg)
+   5. the test should now be running
+      ![Alt text](README_images/e2e/1.jpg)
    
 
 ## Configuration:
