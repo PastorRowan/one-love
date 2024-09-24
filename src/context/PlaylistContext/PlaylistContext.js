@@ -1,10 +1,10 @@
 
 /*
-  File: src/context/PlaylistContext/PlaylistContext.js
-  Description:
-  Defines the PlaylistTracksContext and its provider for managing playlist track data in a React application.
-  Provides functionalities to access and update the list of tracks in a playlist through a context API.
-  Initializes with an empty array and allows updating through the `setPlaylistTracksArr` function.
+    File: src/context/PlaylistContext/PlaylistContext.js
+    Description:
+        Defines the PlaylistTracksContext and its provider for managing playlist track data in a React application.
+        Provides functionalities to access and update the list of tracks in a playlist through a context API.
+        Initializes with an empty array and allows updating through the `setPlaylistTracksArr` function.
 */
 
 // general
@@ -29,14 +29,14 @@ export const PlaylistTracksProvider  = ({ children }) => {
         }
         */
         ]
-      );
+    );
 
-  return (
+    return (
     <PlaylistTracksContext.Provider value={{ 
-      playlistTracksArr,
-      setPlaylistTracksArr
+        playlistTracksArr,
+        setPlaylistTracksArr
     }}>
-      {children}
+        {children}
     </PlaylistTracksContext.Provider>
   );
 };
@@ -45,6 +45,6 @@ export const usePlaylistTracks = () => {
     const context = useContext(PlaylistTracksContext);
     if (context === undefined) {
         throw new Error('usePlaylistTracks must be used within a PlaylistTracksProvider');
-    }
+    };
     return context;
 };

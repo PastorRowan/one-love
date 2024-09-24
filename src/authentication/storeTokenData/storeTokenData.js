@@ -1,7 +1,8 @@
 
 /*
-  File: src/authentication/storeTokenData/storeTokenData.js
-  Description: Stores the token data received from the Spotify API into localStorage.
+    File: src/authentication/storeTokenData/storeTokenData.js
+    Description:
+        Stores the token data received from the Spotify API into localStorage.
 */
 
 function storeTokenData(data) {

@@ -1,9 +1,9 @@
 
 /*
-  File: src/authentication/setupTokenRefreshTimer/setupTokenRefreshTimer.js
-  Description:
-  Sets up a timer to refresh the access token before it expires.
-  Optionally, it can execute a callback function after the token is refreshed.
+    File: src/authentication/setupTokenRefreshTimer/setupTokenRefreshTimer.js
+    Description:
+        Sets up a timer to refresh the access token before it expires.
+        Optionally, it can execute a callback function after the token is refreshed.
 */
 
 // helper

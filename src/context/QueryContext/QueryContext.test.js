@@ -1,7 +1,7 @@
 
 /*
-  File: src/context/QueryContext/QueryContext.test.js
-  Description: ...
+    File: src/context/QueryContext/QueryContext.test.js
+    Description: ...
 */
 
 // general
@@ -31,9 +31,9 @@ describe('QueryContext', () => {
 
         // render the QueryProvider with the TestComponent to access the context
         render(
-          <QueryProvider>
-            <TestComponent />
-          </QueryProvider>
+            <QueryProvider>
+                <TestComponent />
+             </QueryProvider>
         );
 
         // assert that the input field and displayed query are initially empty

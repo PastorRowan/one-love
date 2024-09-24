@@ -1,9 +1,9 @@
 
 /*
-  File: src/authentication/getSpotifyId/fetchSpotifyId.js
-  Description:
-  Fetches the Spotify user ID by making an authenticated request to the Spotify API.
-  It uses the access token stored in localStorage to authorize the request.
+    File: src/authentication/getSpotifyId/fetchSpotifyId.js
+    Description:
+        Fetches the Spotify user ID by making an authenticated request to the Spotify API.
+        It uses the access token stored in localStorage to authorize the request.
 */
 
 async function fetchSpotifyId() {

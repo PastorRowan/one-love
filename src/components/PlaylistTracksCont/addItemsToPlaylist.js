@@ -1,9 +1,11 @@
 
-// File: src/components/PlaylistTracksCont/addItemsToPlaylist.js
-// Description:
-// Function adds a list of tracks to a specified Spotify playlist using the Spotify Web API.
-// It constructs the appropriate API request, including setting the authorization header with a token from local storage.
-// Handles errors that occur during the fetch operation.
+/*
+    File: src/components/PlaylistTracksCont/addItemsToPlaylist.js
+    Description:
+        Function adds a list of tracks to a specified Spotify playlist using the Spotify Web API.
+        It constructs the appropriate API request, including setting the authorization header with a token from local storage.
+        Handles errors that occur during the fetch operation.
+*/
 
 async function addItemsToPlaylist(playlistId, tracks) {
 

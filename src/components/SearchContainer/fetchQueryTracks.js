@@ -1,10 +1,12 @@
 
-// File: src/components/SearchContainer/fetchQueryTracks.js
-// Description:
-// Function handles the process of searching for tracks on Spotify based on a given query.
-// Constructs a search URL with the query parameters, makes a GET request to the Spotify API, and processes the response.
-// The function maps the response data to an array of track objects with relevant properties such as track ID, name, artist, and preview URL.
-// If the query is empty or if an error occurs, it handles these cases appropriately.
+/*
+	File: src/components/SearchContainer/fetchQueryTracks.js
+	Description:
+		Function handles the process of searching for tracks on Spotify based on a given query.
+		Constructs a search URL with the query parameters, makes a GET request to the Spotify API, and processes the response.
+		The function maps the response data to an array of track objects with relevant properties such as track ID, name, artist, and preview URL.
+		If the query is empty or if an error occurs, it handles these cases appropriately.
+*/
 
 async function fetchQueryTracks(query) {
 

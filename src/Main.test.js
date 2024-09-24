@@ -1,8 +1,8 @@
 
 /*
-  File: src/Main.test.js
-  Description:
-  ...
+    File: src/Main.test.js
+    Description:
+    ...
 */
 
 // mock the child components

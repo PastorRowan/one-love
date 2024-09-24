@@ -1,15 +1,12 @@
 
 /*
-  File: src/components/AudioController/AudioController.js
-  Description:
-  Components renders audio controls fixed to the bottom of the main page.
-  Includes play/pause buttons, a playback slider, and a volume control slider.
-  Styles are applied from the associated CSS module.
-  Component utilizes context from `AudioPlayerContext` for managing audio playback and volume.
+    File: src/components/AudioController/AudioController.js
+    Description:
+        Components renders audio controls fixed to the bottom of the main page.
+        Includes play/pause buttons, a playback slider, and a volume control slider.
+        Styles are applied from the associated CSS module.
+        Component utilizes context from `AudioPlayerContext` for managing audio playback and volume.
 */
-
-// general
-import React, { useRef, useEffect, useState } from 'react';
 
 // context
 import { useAudioPlayer } from '../../context/AudioPlayerContext/AudioPlayerContext';

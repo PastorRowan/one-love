@@ -2,7 +2,7 @@
 /*
   File: src/authentication/refreshToken/refreshToken.test.js
   Description:
-  Tests the `refreshToken` function to ensure it correctly handles token refreshing, errors, and calls to helper functions.
+    Tests the `refreshToken` function to ensure it correctly handles token refreshing, errors, and calls to helper functions.
 */
 
 // mock helpers

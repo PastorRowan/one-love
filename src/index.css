@@ -1,36 +1,37 @@
 
-/* File: src/global.css
+/*
+    File: src/global.css
    Description: This CSS file contains global styles and font-face definitions for the application.
 
-   - Global Styles:
-     - `*` selector:
-       - Sets `box-sizing` to `border-box` for all elements, ensuring padding and border are included in element's total width and height.
-       - Sets `margin` and `padding` to `0` for all elements to remove default spacing.
+    - Global Styles:
+        - `*` selector:
+        - Sets `box-sizing` to `border-box` for all elements, ensuring padding and border are included in element's total width and height.
+        - Sets `margin` and `padding` to `0` for all elements to remove default spacing.
 
-   - Font-Face Definitions:
-     - `@font-face` for 'cursive':
-       - Defines the 'cursive' font-family with the source URL pointing to a TrueType font file located at 'fonts/cursive/rastamasta-pk68p.ttf'.
+    - Font-Face Definitions:
+        - `@font-face` for 'cursive':
+        - Defines the 'cursive' font-family with the source URL pointing to a TrueType font file located at 'fonts/cursive/rastamasta-pk68p.ttf'.
 
-     - `@font-face` for 'nowduke':
-       - Defines the 'nowduke' font-family with multiple formats:
-         - `woff2` format located at 'fonts/nowduke/Nowduke-Regular.woff2'
-         - `woff` format located at 'fonts/nowduke/Nowduke-Regular.woff'
-         - `truetype` format located at 'fonts/nowduke/Nowduke-Regular.ttf'
-         - `embedded-opentype` format located at 'fonts/nowduke/Nowduke-Regular.eot'
+    - `@font-face` for 'nowduke':
+        - Defines the 'nowduke' font-family with multiple formats:
+            - `woff2` format located at 'fonts/nowduke/Nowduke-Regular.woff2'
+            - `woff` format located at 'fonts/nowduke/Nowduke-Regular.woff'
+            - `truetype` format located at 'fonts/nowduke/Nowduke-Regular.ttf'
+            - `embedded-opentype` format located at 'fonts/nowduke/Nowduke-Regular.eot'
 
-     - `@font-face` for 'circular-sp':
-       - Defines the 'circular-sp' font-family with multiple formats:
-         - `opentype` format for various font styles:
-           - 'CircularSpotifyText-Black.otf'
-           - 'CircularSpotifyText-BlackItalic.otf'
-           - 'CircularSpotifyText-Bold.otf'
-           - 'CircularSpotifyText-Book.otf'
-           - 'CircularSpotifyText-BookItalic.otf'
-           - 'CircularSpotifyText-Light.otf'
-           - 'CircularSpotifyText-Medium.otf'
-           - 'CircularSpotifyText-MediumItalic.otf'
+    - `@font-face` for 'circular-sp':
+        - Defines the 'circular-sp' font-family with multiple formats:
+            - `opentype` format for various font styles:
+                - 'CircularSpotifyText-Black.otf'
+                - 'CircularSpotifyText-BlackItalic.otf'
+                - 'CircularSpotifyText-Bold.otf'
+                - 'CircularSpotifyText-Book.otf'
+                - 'CircularSpotifyText-BookItalic.otf'
+                - 'CircularSpotifyText-Light.otf'
+                - 'CircularSpotifyText-Medium.otf'
+                - 'CircularSpotifyText-MediumItalic.otf'
 
-       - Sets `font-weight` and `font-style` to `normal` to standardize the font appearance.
+    - Sets `font-weight` and `font-style` to `normal` to standardize the font appearance.
 */
 
 * {

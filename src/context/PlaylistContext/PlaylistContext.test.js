@@ -1,7 +1,7 @@
 
 /*
-  File: src/context/PlaylistContext/PlaylistContext.test.js
-  Description: ...
+    File: src/context/PlaylistContext/PlaylistContext.test.js
+    Description: ...
 */
 
 // general
@@ -13,27 +13,27 @@ function TestComponent() {
 
     return (
         <div>
-           <button
-           onClick={() => {
-           setPlaylistTracksArr([
-            {
-                trackId: '1',
-                trackName: 'One Love',
-                trackArtist1Name: 'Bob Marley',
-                trackArtist1Id: '1',
-                preview_url: 'https://example.com'
-              }
-           ])}}
-           >
-            Add Track
-          </button>
-          <div data-testid="playlist-tracks">
-            {playlistTracksArr.map(track => (
-            <div key={track.trackId}>
-              <span>{track.trackName}</span>
-              <span>{track.trackArtist1Name}</span>
-            </div>
-            ))}
+            <button
+                onClick={() => {
+                setPlaylistTracksArr([
+                    {
+                        trackId: '1',
+                        trackName: 'One Love',
+                        trackArtist1Name: 'Bob Marley',
+                        trackArtist1Id: '1',
+                        preview_url: 'https://example.com'
+                    }
+                ])}}
+            >
+                Add Track
+            </button>
+            <div data-testid="playlist-tracks">
+                {playlistTracksArr.map(track => (
+                    <div key={track.trackId}>
+                        <span>{track.trackName}</span>
+                        <span>{track.trackArtist1Name}</span>
+                    </div>
+                ))}
            </div>
        </div>
     );
@@ -45,7 +45,7 @@ describe('PlaylistTracksContext', () => {
         // render screen
         render(
           <PlaylistTracksProvider>
-            <TestComponent />
+                <TestComponent />
           </PlaylistTracksProvider>
         );
 

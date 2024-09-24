@@ -1,12 +1,14 @@
 
-    // File: src/components/SearchContainer/SearchContainer.js
-    // Description:
-    // Component provides a search interface for querying tracks from Spotify.
-    // Uses the `QueryContext` to manage the search query and the `SearchResultsContext` to update the search results.
-    // Component includes an input field for users to enter their search query and a button to initiate the search.
-    // `handleSearch` function fetches track data based on the query using the `fetchQueryTracks` fetch request function.
-    // Updates the search results state.
-    // Handles cases where the query is empty and provides user feedback in case of errors.
+/*
+    File: src/components/SearchContainer/SearchContainer.js
+    Description:
+        Component provides a search interface for querying tracks from Spotify.
+        Uses the `QueryContext` to manage the search query and the `SearchResultsContext` to update the search results.
+        Component includes an input field for users to enter their search query and a button to initiate the search.
+        `handleSearch` function fetches track data based on the query using the `fetchQueryTracks` fetch request function.
+        Updates the search results state.
+        Handles cases where the query is empty and provides user feedback in case of errors.
+*/
 
     import React, { useState } from 'react';
 

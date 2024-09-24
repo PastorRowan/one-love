@@ -1,9 +1,9 @@
 
 /*
-  File: src/context/SearchResultsContext/SearchResultsContext.js
-  Description:
-  Defines the SearchResultsContext and its provider for managing search result tracks in a React application.
-  Provides functionalities to access and update the list of search tracks through a context API.
+    File: src/context/SearchResultsContext/SearchResultsContext.js
+    Description:
+        Defines the SearchResultsContext and its provider for managing search result tracks in a React application.
+        Provides functionalities to access and update the list of search tracks through a context API.
 */
 
 // general
@@ -31,10 +31,10 @@ export const SearchResultsProvider = ({ children }) => {
 
   return (
     <SearchResultsContext.Provider value={{ 
-      searchTracks,
-      setSearchTracks
+        searchTracks,
+        setSearchTracks
     }}>
-      {children}
+        {children}
     </SearchResultsContext.Provider>
   );
 };
@@ -43,6 +43,6 @@ export const useSearchTracks = () => {
     const context = useContext(SearchResultsContext);
     if (context === undefined) {
         throw new Error('useSearchTracks must be used within a SearchResultsProvider');
-    }
+    };
     return context;
 };

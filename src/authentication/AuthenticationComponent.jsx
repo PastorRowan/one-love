@@ -1,8 +1,8 @@
 
 /*
-  File: src/authentication/AuthenticationComponent.js
-  Description:
-  Handles user authentication with Spotify, including token retrieval, authorization checks, and token refresh setup.
+    File: src/authentication/AuthenticationComponent.js
+    Description:
+        Handles user authentication with Spotify, including token retrieval, authorization checks, and token refresh setup.
 */
 
 import React, { useEffect, useState } from 'react';

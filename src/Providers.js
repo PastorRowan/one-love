@@ -1,8 +1,8 @@
 
 /*
-  File: src/Providers.js
-  Description:
-  Component provides context providers for the application, wrapping its children components with necessary context providers for managing global state and functionalities.
+    File: src/Providers.js
+    Description:
+        Component provides context providers for the application, wrapping its children components with necessary context providers for managing global state and functionalities.
 */
 
 // general
@@ -16,19 +16,19 @@ import { PlaylistTracksProvider } from './context/PlaylistContext/PlaylistContex
 import { SearchResultsProvider } from './context/SearchResultsContext/SearchResultsContext';
 
 const Providers = ({ children }) => {
-  return (
+    return (
     <SearchResultsProvider>
-      <PlaylistTracksProvider>
-        <QueryProvider>
-          <AudioPlayerProvider>
-            <AuthProvider>
-              {children}
-            </AuthProvider>
-          </AudioPlayerProvider>
-        </QueryProvider>
-      </PlaylistTracksProvider>
+        <PlaylistTracksProvider>
+            <QueryProvider>
+                <AudioPlayerProvider>
+                    <AuthProvider>
+                        {children}
+                    </AuthProvider>
+                </AudioPlayerProvider>
+            </QueryProvider>
+        </PlaylistTracksProvider>
     </SearchResultsProvider>
-  );
+    );
 };
 
 export default Providers;

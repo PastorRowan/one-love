@@ -13,28 +13,28 @@ function TestComponent() {
 
     return (
         <div>
-           <button
-           onClick={() => {
-            setSearchTracks([
-            {
-                trackId: '1',
-                trackName: 'One Love',
-                trackArtist1Name: 'Bob Marley',
-                trackArtist1Id: '1',
-                preview_url: 'https://example.com'
-              }
-           ])}}
-           >
-            Add Track
-          </button>
-          <div data-testid="search-tracks">
-            {searchTracks.map(track => (
-            <div key={track.trackId}>
-              <span>{track.trackName}</span>
-              <span>{track.trackArtist1Name}</span>
+            <button
+            onClick={() => {
+                setSearchTracks([
+                {
+                    trackId: '1',
+                    trackName: 'One Love',
+                    trackArtist1Name: 'Bob Marley',
+                    trackArtist1Id: '1',
+                    preview_url: 'https://example.com'
+                }
+            ])}}
+            >
+                Add Track
+            </button>
+            <div data-testid="search-tracks">
+                {searchTracks.map(track => (
+                    <div key={track.trackId}>
+                        <span>{track.trackName}</span>
+                        <span>{track.trackArtist1Name}</span>
+                    </div>
+                ))}
             </div>
-            ))}
-           </div>
        </div>
     );
 };
@@ -45,9 +45,9 @@ describe('SearchResultsContext', () => {
 
         // render screen
         render(
-          <SearchResultsProvider>
-            <TestComponent />
-          </SearchResultsProvider>
+            <SearchResultsProvider>
+                <TestComponent />
+            </SearchResultsProvider>
         );
 
         // initially, the track list should be empty

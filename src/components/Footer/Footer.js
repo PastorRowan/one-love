@@ -1,8 +1,10 @@
 
-// File: src/components/Footer/Footer.js
-// Description:
-// Component renders the footer section of the website, including the name and navigation links for contact information and CV.
-// Styles are applied from the associated CSS module.
+/*
+    File: src/components/Footer/Footer.js
+    Description:
+        Component renders the footer section of the website, including the name and navigation links for contact information and CV.
+        Styles are applied from the associated CSS module.
+*/
 
 import React, { useEffect } from 'react';
 

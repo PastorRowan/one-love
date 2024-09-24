@@ -1,9 +1,9 @@
 
 /*
-  File: File: src/authentication/handleAuthorisation/handleAuthorisation.js
-  Description:
-  Handles the process of initiating the Spotify authorization flow.
-  It generates a code verifier and challenge for PKCE, then redirects the user to Spotify's authorization page.
+    File: File: src/authentication/handleAuthorisation/handleAuthorisation.js
+    Description:
+        Handles the process of initiating the Spotify authorization flow.
+        It generates a code verifier and challenge for PKCE, then redirects the user to Spotify's authorization page.
 */
 
 // helper functions
@@ -11,27 +11,6 @@ import generateRandomString from "../../utils/authentication/generateRandomStrin
 import sha256 from "../../utils/authentication/sha256/sha256";
 import base64encode from "../../utils/authentication/base64encode/base64encode";
 import windowsLocationHref from "./windowsLocationHref";
-
-/*
-const generateRandomString = (length) => {
-  const possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-  const values = crypto.getRandomValues(new Uint8Array(length));
-  return values.reduce((acc, x) => acc + possible[x % possible.length], "");
-};
-
-const sha256 = async (plain) => {
-  const encoder = new TextEncoder()
-  const data = encoder.encode(plain)
-  return window.crypto.subtle.digest('SHA-256', data)
-  };
-
-const base64encode = (input) => {
-    return btoa(String.fromCharCode(...new Uint8Array(input)))
-      .replace(/=/g, '')
-      .replace(/\+/g, '-')
-      .replace(/\//g, '_');
-  };
-*/
 
 const handleAuthorisation = async () => {
   try {
@@ -64,9 +43,6 @@ const handleAuthorisation = async () => {
   };
 
   authUrl.search = new URLSearchParams(params).toString();
-
-  // window.location.href = authUrl.toString();
-  // window.windowsLocationHref(authUrl.toString());
 
   window.windowsLocationHref(authUrl.toString());
 

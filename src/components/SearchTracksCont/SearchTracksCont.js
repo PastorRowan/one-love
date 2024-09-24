@@ -1,13 +1,13 @@
 
 /*
-  File: src/components/SearchTracksCont/SearchTracksCont.js
-  Description:
-  Component displays a list of search results from Spotify.
-  Allows users to interact with each track by either playing it or adding it to a playlist.
-  Component uses React hooks for state management and side effects, and utilizes context providers for managing search results and playlist tracks.
-  Integrates with an audio player context to control playback.
-  Component updates its display based on the presence of search results and playlist tracks...
-  showing appropriate welcome messages when there are no tracks or when only playlist tracks are present.
+    File: src/components/SearchTracksCont/SearchTracksCont.js
+    Description:
+        Component displays a list of search results from Spotify.
+        Allows users to interact with each track by either playing it or adding it to a playlist.
+        Component uses React hooks for state management and side effects, and utilizes context providers for managing search results and playlist tracks.
+        Integrates with an audio player context to control playback.
+        Component updates its display based on the presence of search results and playlist tracks...
+        showing appropriate welcome messages when there are no tracks or when only playlist tracks are present.
 */
 
 import { useState, useEffect } from 'react';

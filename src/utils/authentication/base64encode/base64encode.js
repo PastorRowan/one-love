@@ -1,7 +1,7 @@
 
 /*
-  File: src/utils/authentication/base64encode/base64encode.js
-  Description: ...
+    File: src/utils/authentication/base64encode/base64encode.js
+    Description: ...
 */
 
 const base64encode = (input) => {

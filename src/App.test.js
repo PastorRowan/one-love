@@ -1,7 +1,8 @@
 
 /*
-  File: src/App.test.js
-  Description: Tests for the `App` component to ensure it renders all child components.
+    File: src/App.test.js
+    Description:
+        Tests for the `App` component to ensure it renders all child components.
 */
 
 import React from 'react';

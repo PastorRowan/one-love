@@ -1,9 +1,9 @@
 
 /*
-  File: src/authentication/refreshToken/refreshToken.js
-  Description:
-  Handles the process of refreshing the access token using a refresh token.
-  Stores the new token data and sets up a timer for future refreshes.
+    File: src/authentication/refreshToken/refreshToken.js
+    Description:
+        Handles the process of refreshing the access token using a refresh token.
+        Stores the new token data and sets up a timer for future refreshes.
 */
 
 // helpers

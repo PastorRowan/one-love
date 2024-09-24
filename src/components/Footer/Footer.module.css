@@ -1,17 +1,17 @@
 
 /* 
-  File: src/components/Footer/Footer.module.css
-   Description: 
-   CSS module provides styles for the `Footer` component, which is fixed at the bottom of the page. 
-   Includes styles for the footer container, footer content, header text, and navigation links. 
-   The styles ensure proper alignment, spacing, and font styling.
+    File: src/components/Footer/Footer.module.css
+    Description: 
+        CSS module provides styles for the `Footer` component, which is fixed at the bottom of the page. 
+        Includes styles for the footer container, footer content, header text, and navigation links. 
+        The styles ensure proper alignment, spacing, and font styling.
 
-   - `.footerContainer`: Styles for the main footer container, including centering and background color.
-   - `.footer`: Styles for the footer content area, including width, height, font styling, and overflow handling.
-   - `.footerH2`: Styles for the footer header text, including margin and font size.
-   - `.nav`: Styles for the navigation container, including margin, color, font size, and weight.
-   - `.navA`: Styles for navigation links, including margin and font styling.
-   - `.lastNavOption`: Styles for the last navigation link, ensuring no extra margin.
+        - `.footerContainer`: Styles for the main footer container, including centering and background color.
+        - `.footer`: Styles for the footer content area, including width, height, font styling, and overflow handling.
+        - `.footerH2`: Styles for the footer header text, including margin and font size.
+        - `.nav`: Styles for the navigation container, including margin, color, font size, and weight.
+        - `.navA`: Styles for navigation links, including margin and font styling.
+        - `.lastNavOption`: Styles for the last navigation link, ensuring no extra margin.
 */
 
 .footerContainer {

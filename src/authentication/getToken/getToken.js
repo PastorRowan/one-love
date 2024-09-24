@@ -1,9 +1,9 @@
 
 /*
-  File: src/authentication/getToken/getToken.js
-  Description:
-  Handles the process of retrieving an access token from the Spotify API using an authorization code.
-  The token is then stored using a helper function.
+    File: src/authentication/getToken/getToken.js
+    Description:
+        Handles the process of retrieving an access token from the Spotify API using an authorization code.
+        The token is then stored using a helper function.
 */
 
 // helper

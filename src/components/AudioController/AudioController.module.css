@@ -1,19 +1,19 @@
 
 /* 
-  File: src/components/AudioController/AudioController.module.css
-  Description:
-  This CSS module provides styles for the `AudioController` component.
-  It includes styling for the audio control container, playback and volume sliders, and buttons.
-  Styles ensure that the audio controller is positioned fixed at the bottom of the page...
-  and ensures it has a responsive design suitable for different screen sizes.
+    File: src/components/AudioController/AudioController.module.css
+    Description:
+        This CSS module provides styles for the `AudioController` component.
+        It includes styling for the audio control container, playback and volume sliders, and buttons.
+        Styles ensure that the audio controller is positioned fixed at the bottom of the page...
+        and ensures it has a responsive design suitable for different screen sizes.
 
-  - `.audioControllerCont`: Styles for the main container of the audio controller, including fixed positioning at the bottom of the page and flexbox layout.
-  - `.middleSecCont`: Container for the play/pause button and playback slider, centered with a column layout.
-  - `.playPauseButton`: Styling for the play/pause button, including size and margin.
-  - `.playbackSliderCont`: Container for the playback slider, ensuring proper alignment and height.
-  - `.playbackSlider`: Styling for the playback slider, including track and thumb styles for different browsers.
-  - `.volumeSliderCont`: Container for the volume slider, positioned absolutely within the audio controller.
-  - `.volumeSlider`: Placeholder class for volume slider styling.
+        - `.audioControllerCont`: Styles for the main container of the audio controller, including fixed positioning at the bottom of the page and flexbox layout.
+        - `.middleSecCont`: Container for the play/pause button and playback slider, centered with a column layout.
+        - `.playPauseButton`: Styling for the play/pause button, including size and margin.
+        - `.playbackSliderCont`: Container for the playback slider, ensuring proper alignment and height.
+        - `.playbackSlider`: Styling for the playback slider, including track and thumb styles for different browsers.
+        - `.volumeSliderCont`: Container for the volume slider, positioned absolutely within the audio controller.
+        - `.volumeSlider`: Placeholder class for volume slider styling.
 */
 
 

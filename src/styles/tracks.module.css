@@ -1,9 +1,9 @@
 
 /*
-  File: src/styles/tracks.module.css
-  Description:
-  CSS Module defines styles for the track containers used in the search results and playlist.
-  Includes styles for track containers, play buttons, and text containers, ensuring a consistent layout and appearance for track elements.
+    File: src/styles/tracks.module.css
+        Description:
+        CSS Module defines styles for the track containers used in the search results and playlist.
+        Includes styles for track containers, play buttons, and text containers, ensuring a consistent layout and appearance for track elements.
 */
 
 .trackContainer {

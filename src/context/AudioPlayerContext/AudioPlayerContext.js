@@ -1,10 +1,10 @@
 
 /*
-  File: src/context/AudioPlayerContext/AudioPlayerContext.js
-  Description:
-  Defines the AudioPlayerContext and its provider for managing audio playback state in a React application.
-  Provides functionalities to play, pause, toggle, and change the audio source, and maintains state for volume, current time, and duration.
-  Includes debounce logic for playback control and event handling for updating time and duration.
+    File: src/context/AudioPlayerContext/AudioPlayerContext.js
+    Description:
+        Defines the AudioPlayerContext and its provider for managing audio playback state in a React application.
+        Provides functionalities to play, pause, toggle, and change the audio source, and maintains state for volume, current time, and duration.
+        Includes debounce logic for playback control and event handling for updating time and duration.
 */
 
 import React, { createContext, useContext, useState, useRef, useEffect } from 'react';

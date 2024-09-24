@@ -1,8 +1,8 @@
 
 /*
-  File: src/authentication/AuthenticationComponent.test.js
-  Description:
-  ...
+    File: src/authentication/AuthenticationComponent.test.js
+    Description:
+    ...
 */
 
 // mocking dependencies

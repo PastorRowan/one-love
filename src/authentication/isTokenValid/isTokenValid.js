@@ -1,9 +1,9 @@
 
 /*
-  File: src/authentication/isTokenValid/isTokenValid.js
-  Description:
-  Checks if the stored access token is valid and has not expired or is about to expire.
-  Returns `true` if the token is valid, otherwise `false`.
+    File: src/authentication/isTokenValid/isTokenValid.js
+    Description:
+    Checks if the stored access token is valid and has not expired or is about to expire.
+    Returns `true` if the token is valid, otherwise `false`.
 */
 
 function isTokenValid() {

@@ -1,9 +1,8 @@
 
 /*
-  File: File: src/authentication/handleAuthorisation/handleAuthorisation.test.js
-  Description:
-  Handles the process of initiating the Spotify authorization flow.
-  It generates a code verifier and challenge for PKCE, then redirects the user to Spotify's authorization page.
+    File: File: src/authentication/handleAuthorisation/handleAuthorisation.test.js
+    Description:
+
 */
 
 // mock variables
