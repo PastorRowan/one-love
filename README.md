@@ -43,8 +43,8 @@ To get started with this project, follow these steps:
    Visit `http://localhost:3000`.
 3. **Run tests:**
    - jest units tests:
-   ```bash
-   npm test
+      ```bash
+      npm test
    - cypress e2e tests:
    1. Make sure the development or production server is running on http://localhost:3000 in another terminal. Please refer to the usage section for further instructions
    2. Navigate to the project directory within your terminal.
