@@ -38,23 +38,20 @@ To get started with this project, follow these steps:
      ```bash
      npm run build
      ```
-   This will start the development server on `http://localhost:3000`.
+   Note: npm run build will not run the production build it will just create it. You still need to host a static server to serve the react files. If you run npm start then the development server will be running on `http://localhost:3000`.
 2. **Access the application:**
    Visit `http://localhost:3000`.
 3. **Run tests:**
+   - jest units tests:
    ```bash
    npm test
-
+   - cypress e2e tests:
+   1. open cypress
+   ```bash
+   
 
 ## Configuration:
 none
-
-## Contributing:
-If you'd like to contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch.
-3. Submit a pull request with your changes.
 
 ## License:
 Not licensed
