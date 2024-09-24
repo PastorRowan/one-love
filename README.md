@@ -1,6 +1,9 @@
 
 # One Love
 
+## Disclaimer
+The free Spotify API version only allows me to run the application with trusted developer spotify accounts so I created a spotify account that you need to log into if you want to use the application.
+
 ## Description:
 This project is a part of a Codecademy course, designed to demonstrate my skills utilizing the React library and my knowledge of interacting with external APIs within a Single Page Application (SPA) format. It showcases features such as user authentication, dynamic data fetching, and responsive design, leveraging technologies like React, JavaScript, CSS Modules, and HTML. The goal was to build a React web app with a focus on state management and API integration, providing a seamless user experience with real-time data interactions. Additionally, the project served as an opportunity to learn and apply testing practices using Jest for unit testing and Cypress for end-to-end testing, ensuring robust and reliable application behavior.
 
@@ -31,13 +34,13 @@ To get started with this project, follow these steps:
      ```bash
      npm start
      ```
-   - **Production:**
+   - **Create production build:**
      ```bash
      npm run build
      ```
-   This will start the development or production server on `http://localhost:3000`.
+   This will start the development server on `http://localhost:3000`.
 2. **Access the application:**
-   Open your browser and go to `http://localhost:3000` to see the running application.
+   Visit `http://localhost:3000`.
 3. **Run tests:**
    ```bash
    npm test
